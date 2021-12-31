@@ -52,8 +52,8 @@ namespace UTest
 
             bool cond = true;
             if (data.playerName != dataTest.playerName) cond = false;
-            if (data.level != dataTest.level) cond = false;
-            if (data.gold != dataTest.gold) cond = false;
+            if (data.stage != dataTest.stage) cond = false;
+            if (data.coin != dataTest.coin) cond = false;
 
             Assert.True(cond);
         }
